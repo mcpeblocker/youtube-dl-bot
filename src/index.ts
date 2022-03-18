@@ -1,7 +1,8 @@
 // dotenv
 import { config } from "dotenv";
-import { dl } from "./commands/dl";
 config();
+
+import { dl } from "./commands/dl";
 
 import bot from "./core/bot";
 
